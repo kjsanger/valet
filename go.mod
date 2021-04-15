@@ -13,7 +13,7 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/wtsi-npg/extendo/v2 v2.3.0
 	github.com/wtsi-npg/fsnotify v1.4.8-0.20190705153444-45ca73e9793a
-	github.com/wtsi-npg/logshim v1.2.0
+	github.com/wtsi-npg/logshim v1.3.0
 	github.com/wtsi-npg/logshim-zerolog v1.2.0
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 )
