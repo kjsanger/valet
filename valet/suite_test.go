@@ -34,7 +34,7 @@ import (
 )
 
 func TestValet(t *testing.T) {
-	loggerImpl := zlog.New(os.Stderr, logs.ErrorLevel)
+	loggerImpl := zlog.New(os.Stderr, logs.DebugLevel)
 
 	writer := zerolog.ConsoleWriter{Out: os.Stdout, TimeFormat: time.RFC3339}
 	consoleLogger := loggerImpl.Logger.Output(zerolog.SyncWriter(writer))
